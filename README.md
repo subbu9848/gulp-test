@@ -30,3 +30,14 @@ gulp
 ```bash
 gulp watch
 ```
+
+<!-- 2
+
+If your 'sass' task compiles it correctly, then you just need a watch task to run that task automatically.
+
+gulp.task('watch', function() {
+    gulp.watch(['./**/*.scss'], ['sass'])
+});
+Make it run automatically when you run gulp by adding it to a 'default' task ....
+
+gulp.task('default', ['sass', 'watch']) -->
