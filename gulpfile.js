@@ -58,4 +58,10 @@ gulp.task("default", gulp.parallel("message", "copyHtml", "imageMin", "scripts")
 //   gulp.watch("src/*.html", gulp.parallel["copyHtml"]);
 // });
 
-// Working fine with current code removed sass. Watch was not working
+// gulp.task("watch", function () {
+//   gulp.watch("src/*.html", gulp.series(["copyHtml", "scripts"]));
+// });
+
+
+
+// Working fine with current code removed sass.  worked watch copyHtml
